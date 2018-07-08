@@ -8,5 +8,5 @@
 ## Flow
 
 <p align="center">
-<img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/node-red-system-dashboard-monitor.png" width="600px"/>
+<img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/node-red-dashboard-system-monitor.png" width="600px"/>
 </p>
