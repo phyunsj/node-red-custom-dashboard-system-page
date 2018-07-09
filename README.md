@@ -3,7 +3,10 @@
 
 #### Dependencies
 
-> npm install node-red-contrib-os
+- node-red-contrib-os
+- bootstrap 3.3.7
+- jquery 2.2.4
+- [Odometer](https://github.hubspot.com/odometer/)
 
 ## Flow
 
