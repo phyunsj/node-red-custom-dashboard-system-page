@@ -3,9 +3,11 @@
 
 #### Dependencies
 
+- Node-RED v0.18.6
+- Node.js v8.11.2
 - node-red-contrib-os
-- bootstrap 3.3.7
-- jquery 2.2.4
+- bootstrap v3.3.7
+- jquery v2.2.4
 - [Odometer](https://github.hubspot.com/odometer/)
 
 ## In Action
