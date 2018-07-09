@@ -39,9 +39,7 @@ ws_connected = WebSocketOutNode.connected;
 
 <p align="center">
 <img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/websocket-connected.png" width="300px"/>
-</p>
 
-<p align="center">
 <img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/websocket-disconnected.png" width="300px"/>
 </p>
 
