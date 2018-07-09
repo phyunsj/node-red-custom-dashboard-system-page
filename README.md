@@ -38,11 +38,11 @@ ws_connected = WebSocketOutNode.connected;
 ```
 
 <p align="center">
-<img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/websocket-connected.png" width="600px"/>
+<img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/websocket-connected.png" width="300px"/>
 </p>
 
 <p align="center">
-<img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/websocket-disconnected.png" width="600px"/>
+<img src="https://github.com/phyunsj/node-red-custom-dashboard-system-page/blob/master/websocket-disconnected.png" width="300px"/>
 </p>
 
 
@@ -61,17 +61,17 @@ function WebSocketOutNode(n) {
         else {
             // TODO: nls
             this.serverConfig.on('opened', function(n) { 
-   +             node.connected = true; 
+ +               node.connected = true; 
                  node.status({fill:"green",shape:"dot",text:"connected "+n}); });
             this.serverConfig.on('erro', function() { 
-   +              node.connected = false; 
+ +                node.connected = false; 
                   node.status({fill:"red",shape:"ring",text:"error"}); });
             this.serverConfig.on('closed', function(n) {
                 if (n > 0) { 
-   +               node.connected = true; 
+ +                 node.connected = true; 
                    node.status({fill:"green",shape:"dot",text:"connected "+n}); 
                 } else { 
-   +               node.connected = false; 
+ +                 node.connected = false; 
                    node.status({fill:"red",shape:"ring",text:"disconnected"}); 
                 }
             });
