@@ -29,7 +29,7 @@
 
 ## WebSocket Connection Status Detection
 
-- `RED.nodes.getNode(` flow ID `)` in Function Node
+- `RED.nodes.getNode(` flow ID `)` in Function Node "Collector".
 
 ```
 // ws out node
