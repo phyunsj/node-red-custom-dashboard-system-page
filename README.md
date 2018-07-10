@@ -29,7 +29,7 @@
 
 ## WebSocket Connection Status Detection
 
-- `RED.nodes.getNode(` flow ID `)` 
+- `RED.nodes.getNode(` flow ID `)` in Function Node
 
 ```
 // ws out node
@@ -54,7 +54,7 @@ function WebSocketOutNode(n) {
         var node = this;
         this.server = (n.client)?n.client:n.server;
         this.serverConfig = RED.nodes.getNode(this.server);
-+        this.connected = false;
++       this.connected = false;
         if (!this.serverConfig) {
             return this.error(RED._("websocket.errors.missing-conf"));
         }
@@ -86,7 +86,5 @@ function WebSocketOutNode(n) {
 +               nodes : RED.nodes
  
             },
-+       require : require,  // If you wish to call "require()" in your function node. 
-                            // Otherwise,  create a custome node 
-                            // or adjust "functionGlobalContext" in settings.js
+
 ```
