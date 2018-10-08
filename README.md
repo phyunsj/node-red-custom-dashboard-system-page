@@ -46,7 +46,7 @@ ws_connected = WebSocketOutNode.connected;
 </p>
 
 
-- `nodes/core/io/22-websocket.js`
+- `C:\Users\<your-name>\AppData\Roaming\npm\node_modules\node-red\nodes\core\core\io\22-websocket.js`
 
 ```
 function WebSocketOutNode(n) {
@@ -78,7 +78,7 @@ function WebSocketOutNode(n) {
         }
 ```
 
-- `nodes/core/core/80-function.js`
+- `C:\Users\<your-name>\AppData\Roaming\npm\node_modules\node-red\nodes\core\core\80-function.js`
 
 ```
         RED: {
